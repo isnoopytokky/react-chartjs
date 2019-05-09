@@ -8,7 +8,7 @@
     "build": "webpack index.js dist/react-chartjs.js",
     "dist": "COMPRESS=1 webpack index.js dist/react-chartjs.min.js",
     "prepublishOnly": "npm run build && npm run dist",
-    "start": "npm start"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
